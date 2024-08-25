@@ -4,7 +4,15 @@ The code uses pandas for data manipulation, and sklearn for training and evaluat
 
 Key features:
 
-Supports multiple machine learning models.
-Interactive input fields for laptop specifications.
-Real-time price prediction based on user inputs.
+-Supports multiple machine learning models.
+-Interactive input fields for laptop specifications.
+-Real-time price prediction based on user inputs.
+
 This repository provides a practical guide for learning model training, prediction, and deploying a machine learning application using Streamlit.
+
+
+<h1>Home Page</h1>
+![homepage](https://github.com/user-attachments/assets/34c898a4-535f-46e1-98ed-6dce65e780dc)
+
+<h1>The Predict Page</h1>
+![rf](https://github.com/user-attachments/assets/22efd39d-95a6-496b-ac5b-81bd6bd7c9fb)
