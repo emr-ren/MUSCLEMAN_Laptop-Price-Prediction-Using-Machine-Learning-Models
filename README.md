@@ -12,7 +12,9 @@ This repository provides a practical guide for learning model training, predicti
 
 
 <h1>Home Page</h1>
-![homepage](https://github.com/user-attachments/assets/34c898a4-535f-46e1-98ed-6dce65e780dc)
+
+![home](https://github.com/user-attachments/assets/c8017f08-a2dc-4aab-ae64-ccd03ec48cf9)
 
 <h1>The Predict Page</h1>
-![rf](https://github.com/user-attachments/assets/22efd39d-95a6-496b-ac5b-81bd6bd7c9fb)
+
+![rf](https://github.com/user-attachments/assets/b9176f27-1703-4183-adfb-1b246cd72bf5)
