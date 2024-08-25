@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import streamlit as st
 from sklearn.model_selection import train_test_split
@@ -16,9 +17,11 @@ if rad == "Home":
 else:
     st.subheader(f"{rad} ile Fiyat Tahmini")
 
-    laptop = pd.read_csv("C:/Users/emree/Desktop/PredictPrice/Laptop.csv")
+    # Göreceli dosya yolunu kullanarak CSV dosyasını okuma
+    current_dir = os.path.dirname(__file__)  # Bu Python dosyasının bulunduğu klasörü alır
+    file_path = os.path.join(current_dir, "Laptop.csv")  # CSV dosyasının tam yolunu oluşturur
 
-
+    laptop = pd.read_csv(file_path)
 
     # Brand sütununu kategorikten sayısala çevirme
     brand_mapping = {"Asus": 0, "Acer": 1, "Lenovo": 2, "HP": 3, "Dell": 4}
